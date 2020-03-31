@@ -1,12 +1,12 @@
 function countUpPos(num1, num2) {
   for (var i=0; i<=num1; i+=num2) {
-    $(".output").text(i);
+    $(".output").append(i, "<br>");
   }
 }
 
 function countDownNeg(num1, num2) {
   for (var i=0; i>=num1; i+=num2) {
-    $(".output").text(i);
+    $(".output").append(i, "<br>");
   }
 }
 
