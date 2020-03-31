@@ -1,0 +1,15 @@
+#empty-value {
+  display: none;  
+}
+
+#NaN-value{
+  display: none;
+}
+
+#negative-value{
+  display: none;
+}
+
+#larger-than-value{
+  display: none;
+}
